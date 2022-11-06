@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Teng Lab</title>
+  <subtitle>Understand how human beings understand speech and appreciate music.</subtitle>
+  <link href="http://localhost:8080/components/"/>
+  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <updated>2022-11-06T13:49:03Z</updated>
+  <id>http://localhost:8080/components/</id>
+  <author>
+    <name>Teng Lab</name>
+  </author>
+</feed>
