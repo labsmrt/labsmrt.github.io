@@ -1,0 +1,44 @@
+---
+layout: base
+style: {
+    post: "
+        .post-layout {
+            --container-size: 84ch;
+            --container-padding-y: 3rem;
+        }
+
+        time {
+            color: var(--color-text-muted);
+        }
+    "
+}
+---
+
+<article class="post-layout container my-6">
+    <div class="mb-8 md-mb-10">
+        {% if title %}
+            <h1 class="my-0">{{ title }}</h1>
+        {% endif %}
+        <time datetime="{{ page.date | toISOString }}">
+            {{ page.date | formatDate('DD MMMM YYYY') }}
+        </time>
+    </div>
+
+    {{ content | safe }}
+
+    {%- if collections.posts %}
+        {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+        {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+        {%- if nextPost or previousPost %}
+            <hr class="mt-12">
+            <nav class="pagination">
+                {%- if previousPost %}
+                    <a href="{{ previousPost.url | url }}">Previous: {{ previousPost.data.title }}</a>
+                {% endif %}
+                {%- if nextPost %}
+                    <a href="{{ nextPost.url | url }}" class="ms-auto">Next: {{ nextPost.data.title }}</a>
+                {% endif %}
+            </nav>
+        {%- endif %}
+    {%- endif %}
+</article>

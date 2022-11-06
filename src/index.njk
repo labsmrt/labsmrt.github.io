@@ -1,0 +1,32 @@
+---
+layout: base
+permalink: index.html
+eleventyNavigation:
+    key: "Research"
+style: {
+    home: "
+    #page-hero {
+        --height: 320px;
+    }
+    "
+}
+---
+
+<section id="page-hero" class="section -theme flex flex-col justify-center mb-12">
+    <div class="container">
+        <h1 class="title">{{ meta.siteName }}</h1>
+        <div class="slogan">{{ meta.siteDescription }}</div>
+    </div>
+</section>
+
+<div class="container my-12">
+{% renderTemplate "md" %}
+
+- Speech/Music Perception
+- Auditory Processing
+- Prediction and Decision in Time
+- Cortical Oscillation
+- Functional Imaging of the Auditory Cortex
+
+{% endrenderTemplate %}
+</div>
