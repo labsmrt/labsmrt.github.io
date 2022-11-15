@@ -1,0 +1,9 @@
+{
+  "layout": "collaborator",
+  "permalink": "/collaboration/{{ page.fileSlug }}/",
+  "tags": ["collaborators"],
+  "order": 10,
+  "breadcrumbs": {
+    "Collaboration": "/collaboration/"
+  }
+}

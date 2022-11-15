@@ -1,0 +1,43 @@
+---
+layout: base
+style: {
+    collaborator: "
+        .collaborator-layout {
+            --container-size: 84ch;
+            --container-padding-y: 3rem;
+        }
+
+        time {
+            color: var(--color-text-muted);
+        }
+    "
+}
+---
+
+<article class="collaborator-layout container my-6">
+    <div class="mb-8 md-mb-10">
+        {% if title %}
+            <h1 class="my-0">{{ title }}</h1>
+        {% endif %}
+    </div>
+
+    <p style="text-align:center"><img src="/images/{{ avatar }}" width="60%"></p>
+
+    {{ content | safe }}
+
+    {%- if collections.collaborators %}
+        {%- set nextCollaborator = collections.collaborators | getNextCollectionItem(page) %}
+        {%- set previousCollaborator = collections.collaborators | getPreviousCollectionItem(page) %}
+        {%- if nextCollaborator or previousCollaborator %}
+            <hr class="mt-12">
+            <nav class="pagination">
+                {%- if previousCollaborator %}
+                    <a href="{{ previousCollaborator.url | url }}">Previous: {{ previousCollaborator.data.title }}</a>
+                {% endif %}
+                {%- if nextCollaborator %}
+                    <a href="{{ nextCollaborator.url | url }}" class="ms-auto">Next: {{ nextCollaborator.data.title }}</a>
+                {% endif %}
+            </nav>
+        {%- endif %}
+    {%- endif %}
+</article>

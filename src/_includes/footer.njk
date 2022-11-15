@@ -1,5 +1,27 @@
-<footer class="page-footer">
+<footer class="page-footer mt-8">
     <div class="container auto-grid">
-        {% include "address.njk" %}
+        <div class="col-main mb-8">
+            <p class="h1 weight-bold">Teng Lab</p>
+            {% include "socials.njk" %}
+            <div class="hidden md-block mt-12">
+                {% include "copyright.njk" %}
+            </div>
+        </div>
+        <nav>
+            <p class="h5">Find us on campus</p>
+                <li>Department of Psychology</li>
+                <li>The Chinese University of Hong Kong</li>
+                <li>Email: Xiangbin.Teng@gmail dot com</li>
+                <li><a href="https://scholar.google.de/citations?user=Iocl3vsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        </nav>
+        <nav>
+            <p class="h5">Quick links</p>
+                <li><a href="https://www.psy.cuhk.edu.hk/index.php/component/sppagebuilder/?view=page&id=558" target="_blank" rel="noopener noreferrer">Institute</a></li>
+                <li><a href="https://www.researchgate.net/profile/Xiangbin-Teng" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
+                <li><a href="https://scholar.google.de/citations?user=Iocl3vsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        </nav>
+        <div class="md-hidden mt-4">
+            {% include "copyright.njk" %}
+        </div>
     </div>
 </footer>

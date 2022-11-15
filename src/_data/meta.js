@@ -6,15 +6,12 @@ module.exports = {
     email: "labteng@gmail.com",
     tel: "+852 3943 3468",
     address: {
-        name: "Contact",
-//        office: "Rm 359, Sino Building Building",
-//        postcode: "00-000",
-//        city: "Hong Kong",
-//        region: "Overijsel",
-//        country: "Netherlands",
+        name: "Find Us",
+//        office: "Shatin, N.T.",
+//        city: "Hong Kong SAR",
     },
     socials: {
-        twitter: "",
-        github: "",
+        twitter: "https://twitter.com/TengXB",
+        github: "https://github.com/labtengxb",
     },
 };
