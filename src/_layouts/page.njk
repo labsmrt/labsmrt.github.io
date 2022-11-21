@@ -1,9 +1,12 @@
 ---
 layout: base
 ---
+{% if title %}
+    <div style="background-color:var(--color-theme); color:white; text-align:center;">
+        <p class="h1" style="padding-top: 30px;">{{ title }}</p>
+        <p style="padding-bottom: 35px;">{{ description }}</p>
+    </div>
+{% endif %}
 <article class="container my-6">
-    {% if title %}
-        <h1>{{ title }}</h1>
-    {% endif %}
     {{ content | safe }}
 </article>

@@ -1,7 +1,7 @@
 ---
 layout: "page"
-title: "Our Team"
-description: "Team"
+title: "Team"
+description: "Meet the team at Teng Lab. "
 permalink: "/team/"
 eleventyNavigation:
     key: "Team"
@@ -16,12 +16,11 @@ style: {
     <a href="{{ item.url }}" class="card">
         <div class="card-media">
             <img alt={{ item.data.title }}
-
             src="/images/{{ item.data.avatar }}">
         </div>
         <div class="card-content">
-        <h2 class="h5">{{ item.data.title }}</h2>
-        <div>{{ item.data.description }}</div>
+            <h2 class="h5">{{ item.data.title }}</h2>
+            <div>{{ item.data.description }}</div>
         </div>
     </a>
 {%- endfor -%}

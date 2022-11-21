@@ -2,7 +2,7 @@
 title: "Join us"
 
 avatar: "you.jpg"
-description: "We're always looking for new members to join us in our mission. To learn about ..."
+description: "We're always looking for new members to join us in our mission."
 ---
 
-We're always looking for new members to join us in our mission. To learn about opportunities at our lab, please contact us for more information.
+We're looking for a Ph.D student and a RA. Please contact us if you are interested.
