@@ -2,6 +2,7 @@
 title: "Jinghan Yang"
 
 avatar: "jinghan.jpg"
+date: 1970-01-05
 description: "I joined the lab in September 2022 as an M.A. psychology student. Before that, I earned ..."
 ---
 

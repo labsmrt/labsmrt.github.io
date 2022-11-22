@@ -1,9 +1,9 @@
 {
-  "layout": "member",
-  "permalink": "/team/{{ page.fileSlug }}/",
-  "tags": ["members"],
-  "order": 10,
   "breadcrumbs": {
     "Team": "/team/"
-  }
+  },
+  "layout": "member",
+  "order": 10,
+  "permalink": "/team/{{ page.fileSlug }}/",
+  "tags": ["members"]
 }

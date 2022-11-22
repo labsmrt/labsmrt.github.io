@@ -2,6 +2,7 @@
 title: "Emma Ma"
 
 avatar: "emma.jpg"
+date: 1970-01-02
 description: "I joined the lab in September as a MA part time student in Psychology. Now I am working as ..."
 ---
 

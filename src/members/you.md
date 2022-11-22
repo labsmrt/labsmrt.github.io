@@ -2,6 +2,7 @@
 title: "Join us"
 
 avatar: "you.jpg"
+date: 2022-11-22
 description: "We're always looking for new members to join us in our mission."
 ---
 

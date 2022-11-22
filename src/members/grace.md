@@ -2,6 +2,7 @@
 title: "Grace Lee"
 
 avatar: "grace.jpg"
+date: 1970-01-04
 description: "I am joining this lab for my research practicum when I am now as a year 2 student. I just ..."
 ---
 

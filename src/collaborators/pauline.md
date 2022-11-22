@@ -2,6 +2,7 @@
 title: "Pauline Larrouy-Maestri"
 
 avatar: "pauline.jpg"
+date: 1970-01-03
 description: ""
 ---
 

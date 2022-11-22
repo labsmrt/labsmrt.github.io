@@ -2,6 +2,7 @@
 title: "Xia Chen"
 
 avatar: "xia.jpg"
+date: 1970-01-06
 description: ""
 ---
 

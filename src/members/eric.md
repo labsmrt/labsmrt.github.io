@@ -2,6 +2,7 @@
 title: "Eric"
 
 avatar: "eric.jpg"
+date: 1970-01-03
 description: "I'm an undergraduate student studying at The Chinese University of Hong Kong ..."
 ---
 

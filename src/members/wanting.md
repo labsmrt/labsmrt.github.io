@@ -2,6 +2,7 @@
 title: "Wanting Li"
 
 avatar: "wanting.jpg"
+date: 1970-01-06
 description: "As a MA student, I joined the lab in October 2022. Before that, I earned ..."
 ---
 

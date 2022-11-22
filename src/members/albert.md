@@ -2,6 +2,7 @@
 title: "Albert"
 
 avatar: "albert.jpg"
+date: 1970-01-01
 description: "I am a full-time MA student in CUHK majoring in psychology and joined the lab ..."
 ---
 
