@@ -6,4 +6,6 @@ date: 1970-01-03
 description: ""
 ---
 
-https://pauline-lm.github.io/
+<p align="center">
+    <a href="https://pauline-lm.github.io/">Profile</a>
+</p>

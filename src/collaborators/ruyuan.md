@@ -6,4 +6,6 @@ date: 1970-01-04
 description: ""
 ---
 
-https://ruyuanzhang.github.io/
+<p align="center">
+    <a href="https://ruyuanzhang.github.io/">Team</a>
+</p>

@@ -6,4 +6,6 @@ date: 1970-01-07
 description: ""
 ---
 
-https://slangscience.github.io/slang/index.html
+<p align="center">
+    <a href="https://slangscience.github.io/slang/index.html">Team</a>
+</p>
