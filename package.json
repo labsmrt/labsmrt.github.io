@@ -13,7 +13,7 @@
   },
   "scripts": {
     "debug": "DEBUG=* npx eleventy",
-    "clean": "rm -r _site/ || true",
+    "clean": "rm -r docs/ || true",
     "test:css": "stylelint src/**/*.scss",
     "test": "npm run test:css",
     "start": "npm run dev",
@@ -21,7 +21,7 @@
     "dev:static": "eleventy --serve",
     "dev": "npm run dev:js | npm run dev:static",
     "build:js": "NODE_ENV=production npx rollup -c",
-    "build:css": "postcss _site/css/**/*.css -d _site/css",
+    "build:css": "postcss docs/css/**/*.css -d docs/css",
     "build:static": "ELEVENTY_ENV=prod eleventy",
     "prebuild": "npm test && npm run clean",
     "build": "npm run build:static && npm run build:css && npm run build:js"

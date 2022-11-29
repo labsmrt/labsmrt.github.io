@@ -18,13 +18,13 @@ export default () => {
     return [
         {
             input: "src/assets/js/main.js",
-            output: { dir: "_site/js", format: "iife", sourcemap },
+            output: { dir: "docs/js", format: "iife", sourcemap },
             watch,
             plugins,
         },
         {
             input: "src/assets/js/sw.js",
-            output: { file: "_site/sw.js", format: "cjs" },
+            output: { file: "docs/sw.js", format: "cjs" },
             watch,
             plugins,
         },

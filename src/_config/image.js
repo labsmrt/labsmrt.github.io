@@ -11,7 +11,7 @@ async function imageShortcode(src, alt = "", options = {}) {
                 ? [originalFormat]
                 : ["avif", "webp", originalFormat],
         urlPath: "/images/gen",
-        outputDir: "_site/images/gen",
+        outputDir: "docs/images/gen",
     });
 
     const imageAttributes = {

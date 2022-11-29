@@ -12,7 +12,7 @@ module.exports = {
             preset: ["default", { calc: false }],
         }),
         purgecss({
-            content: ["_site/**/*.html"],
+            content: ["docs/**/*.html"],
             safelist: [/^\:/],
         }),
     ],
