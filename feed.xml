@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Teng Lab</title>
+  <subtitle>Understand how human beings understand speech and appreciate music.</subtitle>
+  <link href="https://11ty-fylgja.netlify.app/components/"/>
+  <link href="https://11ty-fylgja.netlify.app/feed.xml" rel="self"/>
+  <updated>2022-11-30T05:08:55Z</updated>
+  <id>https://11ty-fylgja.netlify.app/components/</id>
+  <author>
+    <name>Teng Lab</name>
+  </author>
+</feed>
