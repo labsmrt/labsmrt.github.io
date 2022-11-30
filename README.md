@@ -24,9 +24,10 @@ Assume you have basic Git/HTML/CSS/JavaScript skills and have Git, NPM on your c
 $ git clone https://github.com/labtengxb/labtengxb.github.io.git
 $ cd labtengxb.github.io
 $ npm install
-$ echo 'NODE_ENV=production' > .env
 $ npx @11ty/eleventy --serve
 ```
+
+npm run-script build
 
 ## TODO
 - [] better readme
