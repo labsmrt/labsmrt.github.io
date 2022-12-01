@@ -39,7 +39,7 @@ The `.njk` files are named based on the content, for instance,
 * `publications.njk` refer to the `Publications` page
 * `team.njk` refers to the `Team` page
 
-Assume you want to edit the `Research` page. You just need to open `publications.njk` then edit the corresponding fields:
+Assume you want to edit the `Research` page. You just need to open `research.njk` then edit the corresponding fields:
 
 ![layout page](layoutPage.jpeg)
 
