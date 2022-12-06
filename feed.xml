@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Teng Lab</title>
   <subtitle>Understand how human beings understand speech and appreciate music.</subtitle>
-  <link href="https://11ty-fylgja.netlify.app/components/"/>
-  <link href="https://11ty-fylgja.netlify.app/feed.xml" rel="self"/>
-  <updated>2022-11-30T05:46:20Z</updated>
-  <id>https://11ty-fylgja.netlify.app/components/</id>
+  <link href="https://labtengxb.github.io//components/"/>
+  <link href="https://labtengxb.github.io//feed.xml" rel="self"/>
+  <updated>2022-12-06T07:38:32Z</updated>
+  <id>https://labtengxb.github.io//components/</id>
   <author>
     <name>Teng Lab</name>
   </author>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://11ty-fylgja.netlify.app/sitemap.xml
-Host: https://11ty-fylgja.netlify.app
+Sitemap: https://labtengxb.github.io//sitemap.xml
+Host: https://labtengxb.github.io/
