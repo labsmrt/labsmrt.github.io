@@ -23,7 +23,7 @@ Assume you have basic Git, HTML, CSS and Javascript skills and have Git, Node.js
 $ git clone https://github.com/labtengxb/labtengxb.github.io.git
 $ cd labtengxb.github.io
 $ npm install
-$ npx @11ty/eleventy --serve
+$ npm start
 ```
 
 ## Cheatsheet
@@ -58,5 +58,4 @@ You can find the progress in the Github dashboard: https://github.com/labtengxb/
 You should be able to see your updates online once it's been finished. 
 
 ## TODO
-- [] better readme
 - [] confirm lab domain
