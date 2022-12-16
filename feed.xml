@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Teng Lab</title>
+  <title>SMRT Lab</title>
   <subtitle>Understand how human beings understand speech and appreciate music.</subtitle>
   <link href="https://labtengxb.github.io//components/"/>
   <link href="https://labtengxb.github.io//feed.xml" rel="self"/>
-  <updated>2022-12-06T10:53:27Z</updated>
+  <updated>2022-12-16T23:21:38Z</updated>
   <id>https://labtengxb.github.io//components/</id>
   <author>
-    <name>Teng Lab</name>
+    <name>SMRT Lab</name>
   </author>
 </feed>
