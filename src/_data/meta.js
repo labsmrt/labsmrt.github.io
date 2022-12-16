@@ -1,6 +1,6 @@
 module.exports = {
-    author: "Teng Lab",
-    siteName: "Teng Lab",
+    author: "SMRT Lab",
+    siteName: "SMRT Lab",
     siteDescription: "Understand how human beings understand speech and appreciate music.",
     themeColor: "#6001ff",
     email: "labteng@gmail.com",
@@ -8,6 +8,5 @@ module.exports = {
     socials: {
         mail: "mailto:labteng@gmail.com",
         github: "https://github.com/labtengxb",
-        twitter: "https://twitter.com/TengXB",
     },
 };

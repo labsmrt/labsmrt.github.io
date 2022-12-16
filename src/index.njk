@@ -10,26 +10,16 @@ style: {
 }
 ---
 
-<section id="page-hero" class="section -theme flex flex-col justify-center mb-12">
-    <div class="container" style="text-align:center">
-        <h1 class="title">{{ meta.siteName }}</h1>
-        <div class="slogan">{{ meta.siteDescription }}</div>
-    </div>
-</section>
+<div style="display:flex; width:100vw">
+    <img style="max-width:50%; height:auto" src="/images/logo.jpg">
+    <img style="max-width:50%; height:auto" src="/images/team.jpg">
+</div>
 
 <div class="container my-12" style="text-align:center">
-<div class="h2" style="width: 50%; float:left; position:relative; top:50%; transform:translateY(100%);">
-   Our research
-</div>
-
-<div style="width:50%; float:right;">
-   Use psychophysics, MEG/EEG, fMRI, and neural network models to study:
-   <li>Speech/Music Perception</li>
-   <li>Auditory Processing</li>
-   <li>Prediction and Decision in Time</li>
-   <li>Cortical Oscillation</li>
-   <li>Functional Imaging of the Auditory Cortex</li>
-</div>
-{% renderTemplate "md" %}
-{% endrenderTemplate %}
+    <div class="h2" style="width:50%; float:left">
+        Our research
+    </div>
+    <div style="width:50%; float:right">
+        How do we understand speech and appreciate music?
+    </div>
 </div>
