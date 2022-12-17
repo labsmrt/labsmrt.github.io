@@ -2,7 +2,7 @@
 title: "WANG Zhe Lionel"
 
 avatar: "lionel.jpg"
-date: 1970-01-01
+date: 1970-01-09
 description: "I joined the lab in November 2022 as a collaborator/honorary research assistant. Before that, ..."
 ---
 
