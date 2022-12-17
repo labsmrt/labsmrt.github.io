@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SMRT Lab</title>
   <subtitle>Understand how human beings understand speech and appreciate music.</subtitle>
-  <link href="https://labtengxb.github.io//components/"/>
-  <link href="https://labtengxb.github.io//feed.xml" rel="self"/>
-  <updated>2022-12-17T03:21:51Z</updated>
-  <id>https://labtengxb.github.io//components/</id>
+  <link href="https://labsmrt.github.io//components/"/>
+  <link href="https://labsmrt.github.io//feed.xml" rel="self"/>
+  <updated>2022-12-17T03:49:23Z</updated>
+  <id>https://labsmrt.github.io//components/</id>
   <author>
     <name>SMRT Lab</name>
   </author>
