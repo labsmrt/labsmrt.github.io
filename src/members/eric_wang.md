@@ -1,9 +1,10 @@
 ---
-title: "Eric"
+title: "Eric Wang"
 
 avatar: "eric.jpg"
-date: 1970-01-03
+date: 1970-01-09
 description: "I'm an undergraduate student studying at The Chinese University of Hong Kong ..."
+subtitle: "UG Student"
 ---
 
 I'm an undergraduate student studying at The Chinese University of Hong Kong majoring in Psychology with a minor in statistics.  I joined the lab in 2022 as an undergraduate research assistant. I have a great interest in cognitive psychology and neuroscience. Because to understand the world, we must understand ourselves – And to understand ourselves, we must study the brain. Currently, I am interested in using neural modeling and brain imaging techniques to understand working memory and auditory perception, but I am more than happy to explore other related topics.
