@@ -1,7 +1,7 @@
-# Teng lab
+# SMRT lab
 
-Teng Lab focuses on understanding how human beings understand speech and appreciate music. 
-This is the source code that sets up the lab's static website on https://labtengxb.github.io/.
+SMRT lab focuses on understanding how human beings understand speech and appreciate music. 
+This is the source code that sets up the lab's static website on https://labsmrt.github.io/.
 
 ## Overview
 
@@ -20,8 +20,8 @@ Assume you have basic Git, HTML, CSS and Javascript skills and have Git, Node.js
 4. Start a local server. Now you can modify the code and see your change locally.
 
 ```
-$ git clone https://github.com/labtengxb/labtengxb.github.io.git
-$ cd labtengxb.github.io
+$ git clone https://github.com/labsmrt/labsmrt.github.io.git
+$ cd labsmrt.github.io
 $ npm install
 $ npm start
 ```
@@ -53,7 +53,7 @@ Assume you want to add a collaborator, here's a simple way for reference:
 
 Git commit and push the updates to the `main` branch when you get the updates done. 
 Then Github Actions will help with build (`.github/workflows/build.yml`) and publish. 
-You can find the progress in the Github dashboard: https://github.com/labtengxb/labtengxb.github.io/actions
+You can find the progress in the Github dashboard: https://github.com/labsmrt/labsmrt.github.io/actions
 
 You should be able to see your updates online once it's been finished. 
 

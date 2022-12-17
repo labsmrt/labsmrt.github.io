@@ -7,6 +7,6 @@ module.exports = {
     tel: "+852 3943 3468",
     socials: {
         mail: "mailto:labteng@gmail.com",
-        github: "https://github.com/labtengxb",
+        github: "https://github.com/labsmrt",
     },
 };
