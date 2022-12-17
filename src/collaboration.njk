@@ -15,8 +15,7 @@ style: {
 {%- for item in collections.collaborators -%}
     <a href="{{ item.url }}" class="card">
         <div class="card-media">
-            <img alt={{ item.data.title }}
-
+            <img style="clip-path: circle()" alt={{ item.data.title }}
             src="/images/{{ item.data.avatar }}">
         </div>
         <div class="card-content">
