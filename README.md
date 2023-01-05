@@ -55,7 +55,4 @@ Git commit and push the updates to the `main` branch when you get the updates do
 Then Github Actions will help with build (`.github/workflows/build.yml`) and publish. 
 You can find the progress in the Github dashboard: https://github.com/labsmrt/labsmrt.github.io/actions
 
-You should be able to see your updates online once it's been finished. 
-
-## TODO
-- [] confirm lab domain
+You should be able to see your updates online once it's been finished.
