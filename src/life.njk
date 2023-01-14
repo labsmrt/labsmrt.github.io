@@ -11,8 +11,20 @@ style: {
 }
 ---
 
-{% renderTemplate "md" %}
-
-Coming soon.
-
-{% endrenderTemplate %}
+<div id="blog-grid" class="auto-grid">
+{%- for item in collections.dramas -%}
+    <a href="{{ item.data.url }}" class="card">
+        <div class="card-media">
+            <img style="" alt={{ item.data.title }}
+            src="/images/{{ item.data.avatar }}">
+        </div>
+        <div class="card-content">
+            <div>
+                <div style="display:inline-block"><h2 class="h5">{{ item.data.title }}</h2></div>
+                <div style="display:inline-block; float:right">{{ item.data.subtitle }}</div>
+            </div>
+            <div>{{ item.data.description }}</div>
+        </div>
+    </a>
+{%- endfor -%}
+</div>
