@@ -35,7 +35,8 @@ module.exports = function (eleventyConfig) {
     // Copy
     eleventyConfig.addPassthroughCopy({
         "src/**/*.{jpg,png,svg,webp}": "images",
-        "src/**/*.ico": "/"
+        "src/**/*.ico": "/",
+        "src/assets/docs/*.pdf": "docs"
     });
 
     // Plugins
