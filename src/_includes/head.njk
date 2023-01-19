@@ -1,6 +1,6 @@
 {%- set pageTitle -%}{% if title %}{{ title }} - {% endif %}{{ meta.siteName }}{%- endset -%}
 {%- set pageDescription -%}{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}{%- endset -%}
-{%- set pageSocialImg -%}{{ env.url }}/images/{% if preview %}{{ preview }}{% else %}preview.png{% endif %}{%- endset -%}
+{%- set pageSocialImg -%}{{ env.url }}/images/{% if preview %}{{ preview }}{% else %}preview.jpg{% endif %}{%- endset -%}
 {%- set pageUrl -%}{{ env.url }}{{ page.url }}{%- endset -%}
 {%- set pageCanonical -%}{{ env.url }}{% if canonical %}{{ canonical }}{% else %}{{ page.url }}{% endif %}{%- endset -%}
 {%- set twitterCreator -%}{% if twitter %}{{ twitter }}{% else %}{{ meta.socials.twitter }}{% endif %}{%- endset -%}
