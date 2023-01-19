@@ -7,14 +7,12 @@ eleventyNavigation:
     key: "Dr. Teng"
     order: 4
 style: {
-    blogIndex: "#blog-grid { --cols-size: 400px }",
+    blogIndex: "#blog-grid { --cols-size: 500px }",
 }
 ---
 
-{% renderTemplate "md" %}
-
-<div style="display: flex">
-    <div style="float:left; padding:5%; width:50%">
+<div id="blog-grid" class="auto-grid">
+    <div style="padding-left:10%; padding-right:10%; padding-top:5%">
         <img src="/images/teng00.jpg">
         <p style="text-align:center">
             <a href="/docs/Curriculum%20vitae%20-%20Xiangbin%20Teng.pdf">CV</a> |
@@ -23,9 +21,7 @@ style: {
             <a href="https://twitter.com/TengXB">Twitter</a></br>
         </p>
     </div>
-    <div style="float:right; padding:2.5%; width:50%; transform:translateY(20%)">
+    <div style="padding-bottom:20%; padding-left:5%; padding-right:8%; transform:translateY(13%)">
         I am fascinated with dynamics across timescales in the brain and in the dynamic world. My research has been focusing on how the brain processes complex temporal sequences, regarding natural stimuli such as spoken language and music that are critical to our daily communication and separate us from other species. I use EEG, MEG, and fMRI, but also constructed neural network models, to understand how the brain constructs abstract structures over seconds to tens of seconds in natural stimuli and in real-world laboratories.
     </div>
 </div>
-
-{% endrenderTemplate %}
