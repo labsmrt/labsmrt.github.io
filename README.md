@@ -6,6 +6,7 @@ This is the source code that sets up the lab's static website on https://labsmrt
 ## Overview
 
 This project uses:
+
 - [Eleventy](https://www.11ty.dev/) to generate static files, packing with [Fylgja CSS](https://fylgja.dev/)
 - [Github Actions](https://github.com/features/actions) to build the source and publish
 - [GitHub Pages](https://pages.github.com/) to host the site
@@ -36,6 +37,7 @@ The `src` folder is where you update most of the contents.
 
 Files ending with `.njk` are written in [Nunjucks](https://www.11ty.dev/docs/languages/nunjucks/).
 The `.njk` files are named based on the content, for instance,
+
 * `publications.njk` refer to the `Publications` page
 * `team.njk` refers to the `Team` page
 
@@ -45,6 +47,7 @@ Assume you want to edit the `Research` page. You just need to open `research.njk
 
 This method is applicable to most of the files. But if you want to update pages for team members or collaborators it's a bit different. 
 Assume you want to add a collaborator, here's a simple way for reference:
+
 1. Get into the `collaborators` folder.
 2. Create a file from an existing`.md` file for the new collaborator. 
 3. Edit the file. `date` decides the collaborator order on the `Collaborators` page. You can find all the avatars in `photos`.

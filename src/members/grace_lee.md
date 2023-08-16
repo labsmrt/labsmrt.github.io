@@ -1,5 +1,5 @@
 ---
-title: "Grace Lee"
+title: "Grace LEE"
 
 avatar: "grace.jpg"
 date: 1970-01-10
