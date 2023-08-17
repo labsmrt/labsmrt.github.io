@@ -7,7 +7,7 @@ description: "I have recently joined the Department of Linguistics and Modern La
 subtitle: "Postdoctoral Fellow"
 ---
 
-I have recently joined the Department of Linguistics and Modern Languages as a postdoctoral researcher working with Professor Patrick WONG and Assistant Professor Xiangbing TENG. My current work aims to understand how the developing infant brain process running speech using EEG.
+I have recently joined the Department of Linguistics and Modern Languages as a postdoctoral researcher working with Professor Patrick WONG and Assistant Professor Xiangbin TENG. My current work aims to understand how the developing infant brain process running speech using EEG.
 
 Prior to CUHK, I completed my PhD and worked in various capacities in the Lifespan Labs of the MARCS institute and School of Psychology, Western Sydney University, Australia. I have conducted studies tapping into the cognitive and linguistic abilities of the human participants across ages, contexts and linguistic backgrounds, using both behavioural methods and EEG.
 
