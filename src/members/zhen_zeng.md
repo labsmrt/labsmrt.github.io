@@ -6,6 +6,9 @@ date: 1970-01-03
 description: "I have recently joined the Department of Linguistics and Modern Languages as a postdoctoral researcher..."
 subtitle: "Postdoctoral Fellow"
 ---
+<p align="center">
+    Email:zhenzeng@cuhk.edu.hk
+</p>
 
 I have recently joined the Department of Linguistics and Modern Languages as a postdoctoral researcher working with Professor Patrick WONG and Assistant Professor Xiangbin TENG. My current work aims to understand how the developing infant brain process running speech using EEG.
 
