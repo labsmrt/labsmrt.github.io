@@ -60,6 +60,8 @@ For example, if your file was put in the "doc" file called "1-s2.0-S174680942300
 
 Once that step was down, you should be able to present your file whenever you refer to its link. 
 
+**Note that your file should not exceed 25Mb.
+
 ### Build and publish
 
 Git commit and push the updates to the `main` branch when you get the updates done. 
