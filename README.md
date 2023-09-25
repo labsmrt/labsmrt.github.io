@@ -52,6 +52,14 @@ Assume you want to add a collaborator, here's a simple way for reference:
 2. Create a file from an existing`.md` file for the new collaborator. 
 3. Edit the file. `date` decides the collaborator order on the `Collaborators` page. You can find all the avatars in `photos`.
 
+### Uploading
+
+If you need to upload any attached file(e.g. pdf), please put all your files in the assets folder. The link of the file should be like: https://labsmrt.github.io/YOURFOLDERNAME/YOURFILENAME
+
+For example, if your file was put in the "doc" file called "1-s2.0-S1746809423009084-main.pdf", the actual link should be https://labsmrt.github.io/docs/1-s2.0-S1746809423009084-main.pdf.
+
+Once that step was down, you should be able to present your file whenever you refer to its link. 
+
 ### Build and publish
 
 Git commit and push the updates to the `main` branch when you get the updates done. 
