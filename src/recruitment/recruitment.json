@@ -1,0 +1,9 @@
+{
+  "layout": "recruitment",
+  "permalink": "/participant/{{ page.fileSlug }}/",
+  "tags": ["recruitment"],
+  "order": 10,
+  "breadcrumbs": {
+    "Participant": "/participant/"
+  }
+}
