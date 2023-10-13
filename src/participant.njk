@@ -1,0 +1,27 @@
+---
+layout: page
+title: "Participant"
+description: "Welcome to our current experiments."
+permalink: "/Participant/"
+eleventyNavigation:
+    key: "Participant"
+    order: 6
+style: {
+    blogIndex: "#blog-grid { --cols-size: 400px }"
+}
+---
+
+<div id="blog-grid" class="auto-grid">
+{%- for item in collections.recruitment -%}
+    <a href="{{ item.url }}" class="card">
+        <div class="card-media">
+            <img style="clip-path: circle()" alt="{{ item.data.title }}"
+            src="/images/{{ item.data.avatar }}">
+        </div>
+        <div class="card-content">
+        <h2 class="h5">{{ item.data.title }}</h2>
+        <div>{{ item.data.description }}</div>
+        </div>
+    </a>
+{%- endfor -%}
+</div>
