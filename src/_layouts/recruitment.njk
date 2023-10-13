@@ -1,0 +1,43 @@
+---
+layout: base
+style: {
+    recruitments: "
+        .recruitments-layout {
+            --container-size: 84ch;
+            --container-padding-y: 3rem;
+        }
+
+        time {
+            color: var(--color-text-muted);
+        }
+    "
+}
+---
+
+<article class="recruitments-layout container my-6">
+    <div class="mb-8 md-mb-10">
+        {% if title %}
+            <h1 class="my-0">{{ title }}</h1>
+        {% endif %}
+    </div>
+
+    <p style="text-align:center"><img src="/images/{{ avatar }}" width="60%"></p>
+
+    {{ content | safe }}
+
+    {%- if collections.recruitment %}
+        {%- set nextrecruitments = collections.recruitment | getNextCollectionItem(page) %}
+        {%- set previousrecruitments = collections.recruitment | getPreviousCollectionItem(page) %}
+        {%- if nextrecruitments or previousrecruitments %}
+            <hr class="mt-12">
+            <nav class="pagination">
+                {%- if previousrecruitments %}
+                    <a href="{{ previousrecruitments.url | url }}">Previous: {{ previousrecruitments.data.title }}</a>
+                {% endif %}
+                {%- if nextrecruitments %}
+                    <a href="{{ nextrecruitments.url | url }}" class="ms-auto">Next: {{ nextrecruitments.data.title }}</a>
+                {% endif %}
+            </nav>
+        {%- endif %}
+    {%- endif %}
+</article>
