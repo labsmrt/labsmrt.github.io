@@ -6,6 +6,9 @@ date: 1970-01-11
 description: "I joined the lab in 2023, embarking on my first lab venture as a fourth-year student..."
 subtitle: "UG Student"
 ---
+<p align="center">
+    Email: 1155141461@link.cuhk.edu.hk
+</p>
 
 I joined the lab in 2023, embarking on my first lab venture as a fourth-year student in the Department of Translation. My academic background is diverse, with a minor in Linguistics and a study experience in Psychology at UBC. Prior to the lab endeavor, I briefly worked as a student assistant at RCT CUHK and a government affairs assistant at the EUCCC. 
 
