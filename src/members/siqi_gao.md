@@ -3,8 +3,8 @@ title: "Siqi GAO"
 
 avatar: "siqi.jpg"
 date: 1970-01-02
-description: "I am a research assistant and the lab manager of SMRT Lab..."
-subtitle: "Lab Manager"
+description: "I am a first-year Ph.D student SMRT Lab..."
+subtitle: "Ph.D"
 ---
 <p align="center">
     Email: siqigao@cuhk.edu.hk 
