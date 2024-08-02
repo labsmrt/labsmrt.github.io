@@ -4,7 +4,7 @@ title: "Siqi GAO"
 avatar: "siqi.jpg"
 date: 1970-01-02
 description: "I am a first-year Ph.D student SMRT Lab..."
-subtitle: "Ph.D"
+subtitle: "Ph.D. Student"
 ---
 <p align="center">
     Email: siqigao@cuhk.edu.hk 
