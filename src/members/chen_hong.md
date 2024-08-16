@@ -2,7 +2,7 @@
 title: "Chen HONG"
 
 avatar: "chen.jpg"
-date: 1970-01-29
+date: 1970-01-02
 description: "I am joining the lab in October 2023 as a postdoc..."
 subtitle: "Postdoctoral Fellow"
 ---
