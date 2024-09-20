@@ -14,3 +14,5 @@ subtitle: ""
 <center>Yik Suen Keung Albert-------------------------MA Psychology<center><br />
 
 <center>Eric Wang---------------------------------------UG Student<center><br />
+
+<center>Jinghan Yang---------------------------------------MA Psychology<center><br />
