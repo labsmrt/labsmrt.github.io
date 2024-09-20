@@ -2,7 +2,7 @@
 title: "Hao ZHU"
 
 avatar: "haozhu.jpg"
-date: 1970-01-01.5
+date: 1970-01-02
 description: "I’m a postdoctoral fellow at the Brain and Mind Institute, Department of Linguistics and Modern..."
 subtitle: "Postdoc Fellow"
 ---
