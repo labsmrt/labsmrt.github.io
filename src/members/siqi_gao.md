@@ -2,7 +2,7 @@
 title: "Siqi GAO"
 
 avatar: "siqi.jpg"
-date: 1970-01-04
+date: 1970-01-05
 description: "I am a first-year Ph.D student in SMRT Lab..."
 subtitle: "Ph.D. Student"
 ---
