@@ -1,7 +1,7 @@
 ---
 title: "Hao ZHU"
 
-avatar: ".jpg"
+avatar: "haozhu.jpg"
 date: 1970-01-01
 description: "I’m a postdoctoral fellow at the Brain and Mind Institute, Department of Linguistics and Modern..."
 subtitle: "Postdoc Fellow"
