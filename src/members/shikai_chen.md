@@ -2,7 +2,7 @@
 title: "Shikai CHEN"
 
 avatar: "shikai.jpg"
-date: 1970-01-04
+date: 1970-01-05
 description: "I joined the lab in 2023 as a PhD student in psychology..."
 subtitle: "Ph.D. Student"
 ---
