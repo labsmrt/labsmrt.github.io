@@ -4,7 +4,7 @@ title: "Haoran Jiang"
 avatar: "Haoran.jpg"
 date: 1970-01-05
 description: "I joined the lab in 2024 as a full-time research assistant. Before that, I received my B.S. in Computer Science and..."
-subtitle: "Postdoc Fellow"
+subtitle: "Research Assistant"
 ---
 <p align="center">
     Email: haoranjiang@cuhk.edu.hk
