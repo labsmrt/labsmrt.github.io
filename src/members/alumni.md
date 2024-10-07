@@ -6,6 +6,7 @@ date: 1970-02-02
 description: "See our previous students and staff"
 subtitle: ""
 ---
+<center>Chen Hong------------------------------Postdoctoral Fellow<center><br />
 
 <center>Tsz Ling Ma Emma------------------------------MA Psychology<center><br />
 
