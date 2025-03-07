@@ -2,7 +2,7 @@
 title: "Su Yan"
 
 avatar: "Su.jpg"
-date: 1970-01-04
+date: 1970-01-07
 description: "I currently work as a full-time research assistant in the SMRT Lab. I hold a Bachelor’s degree in Natural Sciences..."
 subtitle: "Research Assistant"
 ---
