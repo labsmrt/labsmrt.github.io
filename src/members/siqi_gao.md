@@ -2,7 +2,7 @@
 title: "Siqi GAO"
 
 avatar: "siqi.jpg"
-date: 1970-01-08
+date: 1970-01-07
 description: "I graduated from the department of English at PolyU..."
 subtitle: "Co-supervising Ph.D. student"
 ---
