@@ -2,9 +2,9 @@
 title: "Siqi GAO"
 
 avatar: "siqi.jpg"
-date: 1970-01-05
+date: 1970-01-08
 description: "I graduated from the department of English..."
-subtitle: "Ph.D. Student"
+subtitle: "Ph.D. student co-supervised with Prof. Zhe SUN"
 ---
 <p align="center">
     Email: 1155229912@link.cuhk.edu.hk 
