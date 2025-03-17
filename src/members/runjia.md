@@ -2,7 +2,7 @@
 title: "Runjia Shen"
 
 avatar: "runjia.jpg"
-date: 1970-01-07
+date: 1970-01-09
 description: "I am a Master's student in Psychology, supervised by Prof. Zhou, Liqin at Beijing Normal University..."
 subtitle: "Co-supervising student"
 ---
