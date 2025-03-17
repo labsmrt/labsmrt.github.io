@@ -3,7 +3,7 @@ title: "Siqi GAO"
 
 avatar: "siqi.jpg"
 date: 1970-01-08
-description: "I graduated from the department of English..."
+description: "I graduated from the department of English at PolyU..."
 subtitle: "Ph.D. student co-supervised with Prof. Zhe SUN"
 ---
 <p align="center">
