@@ -2,7 +2,7 @@
 title: "Zhen(Jenny) ZENG"
 
 avatar: "zhen.jpg"
-date: 1970-01-04
+date: 1970-01-03
 description: "I have recently joined the Department of Linguistics and Modern Languages as a postdoctoral researcher..."
 subtitle: "Postdoctoral Fellow"
 ---
