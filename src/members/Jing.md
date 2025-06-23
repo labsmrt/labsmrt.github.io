@@ -2,7 +2,7 @@
 title: "Jing Liu"
 
 avatar: "Jing.jpg"
-date: 1970-01-05.1
+date: 1970-01-05
 description: "I joined the lab as a PhD student in summer 2025. I received ..."
 subtitle: "Research Assistant"
 ---
