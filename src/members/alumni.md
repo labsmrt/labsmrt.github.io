@@ -17,3 +17,11 @@ subtitle: ""
 <center>Eric Wang---------------------------------------UG Student<center><br />
 
 <center>Jinghan Yang---------------------------------------MA Psychology<center><br />
+
+<center>Zhen(Jenny) ZENG---------------------------------------Postdoc Fellow<center><br />
+
+<center>Haoran Jiang---------------------------------------Research Assistant<center><br />
+
+<center>Jiamei Li---------------------------------------Co-supervising student<center><br />
+
+<center>Grace LEE---------------------------------------UG Student<center><br />
