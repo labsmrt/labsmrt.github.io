@@ -4,7 +4,7 @@ title: "Jing Liu"
 avatar: "Jing.jpg"
 date: 1970-01-05
 description: "I joined the lab as a PhD student in summer 2025. I received ..."
-subtitle: "Research Assistant"
+subtitle: "Ph.D. Student"
 ---
 <p align="center">
     Email: 1155249410@link.cuhk.edu.hk
