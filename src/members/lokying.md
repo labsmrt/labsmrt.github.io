@@ -1,7 +1,7 @@
 ---
 title: "Lok Ying Chua"
 
-avatar: "lok ying.jpg"
+avatar: "lokying.jpg"
 date: 1970-01-07
 description: " I officially joined the lab in 2025, but I have been involved since my undergrad years..."
 subtitle: "Lab Manager"
