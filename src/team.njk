@@ -12,7 +12,9 @@ style: {
 ---
 
 <div id="blog-grid" class="auto-grid">
-{%- for item in collections.members -%}
+{%- assign sorted_members = collections.members | sort(attribute="data.sort_order") -%}
+{%- for item in sorted_members -%}
+
     <a href="{{ item.url }}" class="card">
         <div class="card-media">
             <img style="clip-path: circle()" alt={{ item.data.title }}
