@@ -5,6 +5,7 @@ avatar: "haozhu.jpg"
 date: 1970-01-02
 description: "I’m a postdoctoral fellow at the Brain and Mind Institute, Department of Linguistics and Modern..."
 subtitle: "Postdoc Fellow"
+sort_order: 3
 ---
 <p align="center">
     Email: haozhu@cuhk.edu.hk
