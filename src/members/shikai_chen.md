@@ -5,6 +5,7 @@ avatar: "shikai.jpg"
 date: 1970-01-04
 description: "I joined the lab in 2023 as a PhD student in psychology..."
 subtitle: "Ph.D. Student"
+sort_order: 4
 ---
 <p align="center">
     Email: ShikaiChen@link.cuhk.edu.hk
