@@ -5,6 +5,7 @@ avatar: "teng00.jpg"
 date: 1970-01-01
 description: "I am fascinated with dynamics across timescales in the brain and in the dynamic world..."
 subtitle: "Assistant Professor"
+sort_order: 1
 ---
 <p align="center">
     Email: XiangbinTeng@cuhk.edu.hk
