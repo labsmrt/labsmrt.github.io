@@ -5,7 +5,7 @@ avatar: "runjia.jpg"
 date: 1970-01-09
 description: "I am a Master's student in Psychology, supervised by Prof. Zhou, Liqin at Beijing Normal University..."
 subtitle: "Co-supervising student"
-sort_order: 7
+sort_order: 8
 ---
 <p align="center">
     Email: chia@snnu.edu.cn
