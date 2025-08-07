@@ -5,6 +5,7 @@ avatar: "lokying.jpg"
 date: 1970-01-07
 description: " I officially joined the lab in 2025, but I have been involved since my undergrad years..."
 subtitle: "Lab Manager"
+sort_order: 2
 ---
 <p align="center">
     Email: lychua@link.cuhk.edu.hk
