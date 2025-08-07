@@ -5,7 +5,7 @@ avatar: "siqi.jpg"
 date: 1970-01-06
 description: "I graduated from the department of English at PolyU..."
 subtitle: "Co-supervising Ph.D. student"
-sort_order: 5
+sort_order: 6
 ---
 <p align="center">
     Email: 1155229912@link.cuhk.edu.hk 
