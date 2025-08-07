@@ -5,7 +5,7 @@ avatar: "Su.jpg"
 date: 1970-01-07
 description: "I currently work as a full-time research assistant in the SMRT Lab. I hold a Bachelor’s degree in Natural Sciences..."
 subtitle: "Research Assistant"
-sort_order: 6
+sort_order: 7
 ---
 <p align="center">
     Email: suy@uni.minerva.edu
