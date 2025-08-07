@@ -5,7 +5,7 @@ avatar: "alumni.jpg"
 date: 1970-02-02
 description: "See our previous students and staff"
 subtitle: ""
-sort_order: 8
+sort_order: 9
 ---
 <center>
 <table border="1" cellspacing="0" cellpadding="5">
