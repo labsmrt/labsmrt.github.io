@@ -6,22 +6,18 @@ date: 1970-02-02
 description: "See our previous students and staff"
 subtitle: ""
 ---
-<center>Chen Hong------------------------------Postdoctoral Fellow<center><br />
-
-<center>Tsz Ling Ma Emma------------------------------MA Psychology<center><br />
-
-<center>Wanting Li-----------------------------------------MA Psychology<center><br />
-
-<center>Yik Suen Keung Albert-------------------------MA Psychology<center><br />
-
-<center>Eric Wang---------------------------------------UG Student<center><br />
-
-<center>Jinghan Yang---------------------------------------MA Psychology<center><br />
-
-<center>Zhen(Jenny) ZENG---------------------------------------Postdoc Fellow<center><br />
-
-<center>Haoran Jiang---------------------------------------Research Assistant<center><br />
-
-<center>Jiamei Li---------------------------------------Co-supervising student<center><br />
-
-<center>Grace LEE---------------------------------------UG Student<center><br />
+<center>
+<table border="1" cellspacing="0" cellpadding="5">
+    <tr><td>Chen Hong</td><td>Postdoctoral Fellow</td></tr>
+    <tr><td>Zhen (Jenny) Zeng</td><td>Postdoctoral Fellow</td></tr>
+    <tr><td>Tsz Ling Ma Emma</td><td>MA Psychology</td></tr>
+    <tr><td>Wanting Li</td><td>MA Psychology</td></tr>   
+    <tr><td>Yik Suen Keung Albert</td><td>MA Psychology</td></tr>
+    <tr><td>Jinghan Yang</td><td>MA Psychology</td></tr>
+    <tr><td>Eric Wang</td><td>UG Student</td></tr>
+    <tr><td>Grace Lee</td><td>UG Student</td></tr> 
+    <tr><td>Haoran Jiang</td><td>Research Assistant</td></tr>
+    <tr><td>Jiamei Li</td><td>Co-supervising Student</td></tr>
+    <tr><td>Brian Cheung</td><td>Lab Manager</td></tr>
+</table>
+</center>
