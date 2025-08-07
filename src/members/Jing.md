@@ -5,6 +5,7 @@ avatar: "Jing.jpg"
 date: 1970-01-05
 description: "I joined the lab as a PhD student in summer 2025. I received ..."
 subtitle: "Ph.D. Student"
+sort_order: 5
 ---
 <p align="center">
     Email: 1155249410@link.cuhk.edu.hk
