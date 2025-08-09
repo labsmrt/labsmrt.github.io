@@ -1,5 +1,5 @@
 ---
-title: "Lok Ying Chua"
+title: "Lok Ying CHUA"
 
 avatar: "lokying.jpg"
 date: 1970-01-07
