@@ -1,5 +1,5 @@
 ---
-title: "Su Yan"
+title: "Su YAN"
 
 avatar: "Su.jpg"
 date: 1970-01-07
