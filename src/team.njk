@@ -12,7 +12,7 @@ style: {
 ---
 
 <div id="blog-grid" class="auto-grid">
-{%- assign sorted_members = collections.members | sort(attribute="data.sort_order") -%}
+{%- set sorted_members = collections.members | sort(attribute="data.sort_order") -%}
 {%- for item in sorted_members -%}
 
     <a href="{{ item.url }}" class="card">
