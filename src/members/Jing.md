@@ -1,5 +1,5 @@
 ---
-title: "Jing Liu"
+title: "Jing LIU"
 
 avatar: "Jing.jpg"
 date: 1970-01-05
