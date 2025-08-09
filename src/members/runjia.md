@@ -1,5 +1,5 @@
 ---
-title: "Runjia Shen"
+title: "Runjia SHEN"
 
 avatar: "runjia.jpg"
 date: 1970-01-09
