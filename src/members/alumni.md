@@ -1,7 +1,7 @@
 ---
 title: "Alumni"
 
-avatar: "happyhour02.jpg"
+avatar: "happyhour02.jpeg"
 date: 1970-02-02
 description: "See our previous students and staff"
 subtitle: ""
