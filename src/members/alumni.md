@@ -7,18 +7,31 @@ description: "See our previous students and staff"
 subtitle: ""
 sort_order: 9
 ---
-<center>
-<table border="1" cellspacing="0" cellpadding="5">
-    <tr><td>Chen Hong</td><td>Postdoctoral Fellow</td></tr>
-    <tr><td>Zhen (Jenny) Zeng</td><td>Postdoctoral Fellow</td></tr>
-    <tr><td>Tsz Ling Ma Emma</td><td>MA Psychology</td></tr>
-    <tr><td>Wanting Li</td><td>MA Psychology</td></tr>   
-    <tr><td>Yik Suen Keung Albert</td><td>MA Psychology</td></tr>
-    <tr><td>Jinghan Yang</td><td>MA Psychology</td></tr>
-    <tr><td>Eric Wang</td><td>UG Student</td></tr>
-    <tr><td>Grace Lee</td><td>UG Student</td></tr> 
-    <tr><td>Haoran Jiang</td><td>Research Assistant</td></tr>
-    <tr><td>Jiamei Li</td><td>Co-supervising Student</td></tr>
-    <tr><td>Brian Cheung</td><td>Lab Manager</td></tr>
-</table>
-</center>
+
+<p><strong>Chen Hong</strong> (Postdoctoral Fellow)</p>
+<p><strong>Zhen (Jenny) Zeng</strong> (Postdoctoral Fellow)</p>
+
+<p><strong>Tsz Ling Ma Emma</strong> (MA Psychology)</p>
+
+<p><strong>Wanting Li</strong> (MA Psychology)</p>
+
+<p><strong>Yik Suen Keung Albert</strong> (MA Psychology)</p>
+
+<p><strong>Jinghan Yang</strong> (MA Psychology)</p>
+<p>
+    <strong>Chenghan Xie</strong> (MSc Information Engineering)<br>
+    <em>Current Position: PhD student, <a href="https://psychology.gatech.edu/" target="_blank">Georgia Institute of Technology</a></em>
+</p>
+
+<p><strong>Eric Wang</strong> (UG Student)</p>
+
+<p><strong>Grace Lee</strong> (UG Student)</p>
+
+<p>
+    <strong>Haoran Jiang</strong> (Research Assistant)<br>
+    <em>Current Position: PhD student, <a href="https://en.tju.edu.cn/" target="_blank">Tianjin University</a></em>
+</p>
+
+<p><strong>Jiamei Li</strong> (Co-supervising Student)</p>
+
+<p><strong>Brian Cheung</strong> (Lab Manager)</p>
