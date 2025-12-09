@@ -1,7 +1,7 @@
 ---
 title: "Yi Du"
 
-avatar: "Dr. Yi DU.JPG"
+avatar: "yi.jpg"
 date: 1970-01-04
 description: ""
 ---
