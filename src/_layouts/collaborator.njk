@@ -10,12 +10,11 @@ style: {
         time {
             color: var(--color-text-muted);
         }
-        /* Standardize collaborator avatars */
         .collaborator-avatar {
             width: 220px;
             height: 220px;
             object-fit: cover;
-            border-radius: 50%; /* optional: circular */
+            border-radius: 50%; 
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -31,11 +30,7 @@ style: {
         {% endif %}
     </div>
     <p style="text-align:center">
-      <img
-        src="/images/{{ avatar }}"
-        alt="{{ title }}"
-        style="width:220px;height:220px;object-fit:cover;border-radius:50%;display:block;margin:0 auto;"
-      >
+        <img class="collaborator-avatar" src="/images/{{ avatar }}" alt="{{ title }}">
     </p>
 
     {{ content | safe }}
