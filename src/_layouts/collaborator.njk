@@ -30,9 +30,12 @@ style: {
             <h1 class="my-0">{{ title }}</h1>
         {% endif %}
     </div>
-
     <p style="text-align:center">
-        <img class="collaborator-avatar" src="/images/{{ avatar }}" alt="{{ title }}">
+      <img
+        src="/images/{{ avatar }}"
+        alt="{{ title }}"
+        style="width:220px;height:220px;object-fit:cover;border-radius:50%;display:block;margin:0 auto;"
+      >
     </p>
 
     {{ content | safe }}
