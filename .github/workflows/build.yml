@@ -19,8 +19,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - run: npm ci
+      - name: Sanitize npm config
+        run: |
+          npm config set registry https://registry.npmjs.org/
+          npm config delete //registry.npmjs.org/:_authToken || true
+          npm config set always-auth false
+          if [ -f .npmrc ]; then
+            sed -i.bak '/_authToken/d;/always-auth/d' .npmrc || true
+          fi
+      - run: npm install
 
       - run: npm run build
 
