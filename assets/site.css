@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/assets/fonts/cormorant-garamond-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/assets/fonts/inter-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --paper: #eeedef;
+  --ink: #101012;
+  --gutter: clamp(24px, 5vw, 88px);
+  --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 280px; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; touch-action: manipulation; }
+a:focus-visible { outline: 2px solid #705623; outline-offset: 7px; }
+::selection { color: var(--ink); background: #ddcfb6; }
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 16px;
+  z-index: 100;
+  padding: 12px 18px;
+  background: var(--ink);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-180%);
+}
+.skip-link:focus { transform: translateY(0); }
+
+.site-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  min-height: 124px;
+  padding: 28px clamp(24px, 2.8vw, 54px);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  text-decoration: none;
+}
+.brand-mark { width: clamp(98px, 8.6vw, 144px); height: auto; flex-shrink: 0; }
+.brand-wordmark { display: block; border-left: 1px solid #61616b; padding-left: 18px; }
+.brand-title {
+  display: block;
+  font-size: clamp(32px, 2.75vw, 44px);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: -.045em;
+}
+.brand-subtitle {
+  display: block;
+  margin-top: 5px;
+  color: #17171b;
+  font-size: clamp(14px, 1.23vw, 19px);
+  line-height: 1.35;
+  letter-spacing: -.035em;
+  white-space: nowrap;
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-start;
+  min-height: 740px;
+  min-height: max(740px, 100svh);
+  overflow: hidden;
+  background: #e7e7eb;
+}
+.hero-art {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(238,237,239,.42), rgba(238,237,239,.2) 35%, transparent 69%);
+  pointer-events: none;
+}
+.hero-content {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: clamp(150px, 17svh, 190px) var(--gutter) 142px;
+}
+.hero-title {
+  max-width: 900px;
+  margin: 0;
+  color: #08080a;
+  font-family: var(--serif);
+  font-size: clamp(82px, 10.8vw, 166px);
+  font-weight: 400;
+  line-height: .94;
+  letter-spacing: -.055em;
+}
+.hero-title span { display: block; }
+.destination { margin-top: clamp(34px, 4.5vh, 52px); }
+.move-notice {
+  margin: 0;
+  color: #41414a;
+  font-size: clamp(15px, 1.35vw, 19px);
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: -.015em;
+}
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 44px;
+  margin-top: 9px;
+  padding: 8px 0 7px;
+  border-bottom: 2px solid currentColor;
+  font-size: clamp(25px, 2.15vw, 34px);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -.035em;
+  text-decoration: none;
+}
+.hero-link span {
+  font-size: 1.18em;
+  line-height: 1;
+  font-weight: 400;
+  transition: transform .2s ease;
+}
+.hero-link:hover { color: #41414a; }
+.hero-link:hover span { transform: translateX(5px); }
+
+@media (max-width: 1150px) {
+  .site-header { min-height: 114px; padding-top: 23px; padding-bottom: 23px; }
+  .brand-mark { width: 98px; }
+  .brand-title { font-size: 34px; }
+  .brand-subtitle { font-size: 15px; }
+  .hero-content { padding-top: 160px; padding-bottom: 150px; }
+}
+
+@media (max-width: 900px) {
+  .hero-art { object-position: 57% center; }
+  .hero::after { background: linear-gradient(90deg, rgba(238,237,239,.64), rgba(238,237,239,.25) 50%, transparent 90%); }
+}
+
+@media (max-width: 640px) {
+  .site-header { min-height: 98px; padding: 21px 20px; }
+  .brand { gap: 12px; }
+  .brand-mark { width: 64px; }
+  .brand-wordmark { padding-left: 12px; }
+  .brand-title { font-size: 27px; }
+  .brand-subtitle { font-size: 11.5px; line-height: 1.4; letter-spacing: -.04em; margin-top: 4px; }
+  .hero { min-height: 700px; min-height: max(700px, 100svh); }
+  .hero-art { object-position: 64% center; }
+  .hero::after { background: linear-gradient(100deg, rgba(238,237,239,.78), rgba(238,237,239,.44) 45%, transparent 100%); }
+  .hero-content { padding-top: 154px; padding-bottom: 190px; }
+  .hero-title { font-size: clamp(46px, 16vw, 96px); line-height: .98; letter-spacing: -.05em; }
+  .destination { margin-top: 32px; }
+  .move-notice { font-size: 15px; }
+  .hero-link { gap: 16px; margin-top: 8px; font-size: 24px; }
+}
+
+@media (max-width: 380px) {
+  .site-header { padding-right: 16px; padding-left: 16px; }
+  .brand { gap: 9px; }
+  .brand-mark { width: 48px; }
+  .brand-wordmark { padding-left: 10px; }
+  .brand-title { font-size: 24px; }
+  .brand-subtitle { font-size: 10.2px; }
+  .hero-content { padding-top: 146px; }
+  .hero-link { font-size: 22px; gap: 12px; }
+}
+
+@media (min-width: 1151px) and (max-height: 760px) {
+  .hero-content { padding-top: 140px; padding-bottom: 100px; }
+  .hero-title { font-size: clamp(112px, 17.6svh, 134px); }
+  .destination { margin-top: 30px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-link span { transition: none; }
+}
+
+@media print {
+  .hero-art, .hero::after, .skip-link { display: none; }
+  body, .hero { background: #fff; }
+  .site-header { position: relative; padding: 16px 0; }
+  .hero { min-height: 0; }
+  .hero-content { padding: 32px 0; }
+  .hero-title { font-size: 68pt; }
+  .hero-link { font-size: 18pt; }
+  .hero-link::after { content: " (" attr(href) ")"; font-size: 10pt; }
+}

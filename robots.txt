@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://labsmrt.github.io//sitemap.xml
-Host: https://labsmrt.github.io/
