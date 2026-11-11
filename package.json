@@ -1,73 +1,14 @@
-{  
-  "name": "fylgja-11ty-starter-template",
+{
+  "name": "smrt-lab-landing",
   "version": "1.0.0",
-  "description": "The 11ty powered by Fylgja CSS",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fylgja/11ty-starter-template.git"
-  },
-  "author": "fylgja",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fylgja/11ty-starter-template/issues"
-  },
+  "private": true,
+  "type": "module",
+  "description": "SMRT Lab's former website, now a single landing page linking to the new site.",
+  "engines": { "node": ">=24" },
   "scripts": {
-    "debug": "DEBUG=* npx eleventy",
-    "clean": "rm -r docs/ || true",
-    "test:css": "stylelint src/**/*.scss",
-    "test": "npm run test:css",
-    "start": "npm run dev",
-    "dev:js": "npx rollup -c -w",
-    "dev:static": "eleventy --serve",
-    "dev": "npm run dev:js | npm run dev:static",
-    "build:js": "NODE_ENV=production npx rollup -c",
-    "build:css": "postcss docs/css/**/*.css -d docs/css",
-    "build:static": "ELEVENTY_ENV=prod eleventy",
-    "prebuild": "npm test && npm run clean",
-    "build": "npm run build:static && npm run build:css && npm run build:js"
-  },
-  "stylelint": {
-    "extends": "@fylgja/stylelint-config/scss"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 2%",
-    "not dead",
-    "last 3 iOS major versions",
-    "not IE 11"
-  ],
-  "dependencies": {
-    "@fylgja/sizes": "^1.0.2",
-    "@fylgja/z-layer": "^1.0.2",
-    "dialog-polyfill": "^0.5.6",
-    "fylgja": "^1.3.4"
-  },
-  "overrides": {
-  "@fylgja/elevation": "@fylgja/shadow"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-img": "^2.0.1",
-    "@11ty/eleventy-navigation": "^0.3.3",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "@fullhuman/postcss-purgecss": "^4.1.3",
-    "@fylgja/stylelint-config": "^4.1.1",
-    "@grimlink/eleventy-plugin-sass": "^1.0.3",
-    "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
-    "@rollup/plugin-commonjs": "^22.0.0",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "clean-css": "^5.3.0",
-    "cssnano": "^5.1.9",
-    "dayjs": "^1.11.2",
-    "html-minifier": "^4.0.0",
-    "markdown-it-external-anchor": "^1.0.0",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^9.1.0",
-    "postcss-preset-env": "^7.6.0",
-    "rollup": "^2.74.1",
-    "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.52.1",
-    "stylelint": "^14.8.3"
+    "dev": "node website/dev.mjs",
+    "test": "node website/verify.mjs",
+    "build": "node website/build.mjs",
+    "check": "node website/verify.mjs --built"
   }
 }
