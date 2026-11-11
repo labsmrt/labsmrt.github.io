@@ -1,0 +1,16 @@
+{
+  "audience": "public",
+  "public_approved": true,
+  "approval_source": "Xiangbin requested on 11 November 2026 that the old lab website be replaced by one front page with the new silver design, logo, and a link to the new website.",
+  "destination": "https://xbtinchina.github.io/SMRTLab-everything/",
+  "files": {
+    "index.html": "website/index.html",
+    "assets/site.css": "website/assets/site.css",
+    "assets/logo-living-spectrum.svg": "website/assets/logo-living-spectrum.svg",
+    "assets/fonts/inter-latin.woff2": "website/assets/fonts/inter-latin.woff2",
+    "assets/fonts/cormorant-garamond-latin.woff2": "website/assets/fonts/cormorant-garamond-latin.woff2",
+    "assets/fonts/Inter-OFL.txt": "website/assets/fonts/Inter-OFL.txt",
+    "assets/fonts/Cormorant-Garamond-OFL.txt": "website/assets/fonts/Cormorant-Garamond-OFL.txt",
+    "assets/home-silver.webp": "public-content/assets/home-silver.webp"
+  }
+}
